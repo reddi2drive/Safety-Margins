@@ -650,34 +650,544 @@ const QS_PER_ATTEMPT_DEFAULT = 71;
 
 const QUESTION_BANK = [
 {
-  id: "template-0001",
-  category: "Template – Example",
-  q: "This is an example question used in the template.",
+  id: "sm-0001",
+  category: "Safety Margins",
+  q: "What is the safest way to slow down when driving in snowy or icy conditions?",
   choices: [
-    "Example answer A",
-    "Example answer B",
-    "Example answer C",
-    "Example answer D"
+    "Brake sharply at the last moment",
+    "Steer quickly if you begin to slide",
+    "Use sidelights only",
+    "Slow down early using gentle braking"
   ],
-  correct: 0,
-  explain: "This is an example explanation showing where feedback text goes.",
+  correct: 3,
+  explain: "On snow or ice, grip levels are greatly reduced. Braking gently and planning well ahead helps prevent skidding and loss of control.",
   image: "",
-  fp: "R2D-TEMPLATE-0001"
+  fp: "R2D-SM-0001"
+},
+
+{
+  id: "sm-0002",
+  category: "Safety Margins",
+  q: "When driving downhill, how should you control your vehicle’s speed?",
+  choices: [
+    "Use a higher gear and brake firmly",
+    "Stay in a high gear and coast",
+    "Select a lower gear and brake smoothly",
+    "Avoid using the brakes completely"
+  ],
+  correct: 2,
+  explain: "Using a lower gear increases engine braking, helping maintain control and reducing excessive brake use on steep descents.",
+  image: "",
+  fp: "R2D-SM-0002"
+},
+
+{
+  id: "sm-0003",
+  category: "Safety Margins",
+  q: "On which type of road surface can anti-lock braking systems be less effective?",
+  choices: [
+    "Dry tarmac",
+    "Loose or uneven surfaces",
+    "Firm concrete",
+    "Smooth road surfaces"
+  ],
+  correct: 1,
+  explain: "Loose surfaces such as gravel or snow can reduce tyre grip, meaning ABS may not shorten stopping distances as effectively.",
+  image: "",
+  fp: "R2D-SM-0003"
+},
+
+{
+  id: "sm-0004",
+  category: "Safety Margins",
+  q: "After driving through deep water, what should you do to check your brakes?",
+  choices: [
+    "Accelerate to dry them quickly",
+    "Drive normally without braking",
+    "Continue without using brakes",
+    "Apply the brakes gently while moving slowly"
+  ],
+  correct: 3,
+  explain: "Water reduces braking efficiency. Light braking while driving slowly helps dry the brake components safely.",
+  image: "",
+  fp: "R2D-SM-0004"
+},
+
+{
+  id: "sm-0005",
+  category: "Safety Margins",
+  q: "After passing through flood water, what should you do once it’s safe?",
+  choices: [
+    "Check tyre pressures immediately",
+    "Turn on hazard lights",
+    "Accelerate firmly",
+    "Test that your brakes are working correctly"
+  ],
+  correct: 3,
+  explain: "Brakes may remain wet after flood water. Testing them carefully ensures they are working before increasing speed.",
+  image: "",
+  fp: "R2D-SM-0005"
+},
+
+{
+  id: "sm-0006",
+  category: "Safety Margins",
+  q: "What advantage does a four-wheel-drive vehicle provide?",
+  choices: [
+    "Reduced fuel consumption",
+    "Shorter braking distance",
+    "Improved grip and traction",
+    "Greater passenger comfort"
+  ],
+  correct: 2,
+  explain: "Four-wheel drive improves traction, especially on slippery or uneven roads, although safe driving skills are still essential.",
+  image: "",
+  fp: "R2D-SM-0006"
+},
+
+{
+  id: "sm-0007",
+  category: "Safety Margins",
+  q: "When following another vehicle in fog, how can you reduce the risk of a collision?",
+  choices: [
+    "Drive close to the vehicle ahead",
+    "Use main beam headlights",
+    "Match faster traffic speeds",
+    "Increase your following distance"
+  ],
+  correct: 3,
+  explain: "Reduced visibility means longer stopping distances are needed. Leaving extra space gives more time to react safely.",
+  image: "",
+  fp: "R2D-SM-0007"
+},
+
+{
+  id: "sm-0008",
+  category: "Safety Margins",
+  q: "What does it mean if the electronic stability control (ESC) warning light flashes briefly while driving?",
+  choices: [
+    "The system has detected a fault",
+    "The system is carrying out a test",
+    "The stability control system is intervening",
+    "The system has been switched off"
+  ],
+  correct: 2,
+  explain: "A flashing ESC light usually indicates the system is helping maintain traction and stability when grip is reduced.",
+  image: "",
+  fp: "R2D-SM-0008"
+},
+
+{
+  id: "sm-0009",
+  category: "Safety Margins",
+  q: "How can engine braking help slow your vehicle?",
+  choices: [
+    "By selecting reverse gear",
+    "By changing to a lower gear",
+    "By selecting neutral",
+    "By changing to a higher gear"
+  ],
+  correct: 1,
+  explain: "Selecting a lower gear allows the engine to help slow the vehicle, reducing reliance on the foot brake.",
+  image: "",
+  fp: "R2D-SM-0009"
+},
+
+{
+  id: "sm-0010",
+  category: "Safety Margins",
+  q: "What should you do when approaching a road hump in a traffic-calmed area?",
+  choices: [
+    "Move towards the centre of the road",
+    "Stop completely before it",
+    "Check mirrors and reduce speed",
+    "Maintain speed to avoid delay"
+  ],
+  correct: 2,
+  explain: "Checking mirrors and slowing down helps maintain control and protects pedestrians, cyclists and your vehicle.",
+  image: "",
+  fp: "R2D-SM-0010"
 },
  {
-  id: "template-0002",
-  category: "Template – Example",
-  q: "This is an example question used in the template.",
+  id: "safety-margins-0011",
+  category: "Safety Margins",
+  q: "How should you use anti-lock brakes (ABS) during an emergency stop?",
   choices: [
-    "Example answer A",
-    "Example answer B",
-    "Example answer C",
-    "Example answer D"
+    "Pump the brake pedal repeatedly",
+    "Brake gently while gripping the steering wheel tightly",
+    "Brake firmly and keep pressure applied until stopped",
+    "Use the parking brake to help slow down"
+  ],
+  correct: 2,
+  explain: "With ABS, press the brake pedal firmly and maintain pressure. The system prevents wheel lock and helps you keep steering control.",
+  image: "",
+  fp: "R2D-SM-0011"
+},
+
+{
+  id: "safety-margins-0012",
+  category: "Safety Margins",
+  q: "While driving on a wet road, how might you notice your tyres losing grip?",
+  choices: [
+    "The engine stops running",
+    "The steering becomes heavier",
+    "The engine suddenly sounds louder",
+    "The steering feels unusually light"
+  ],
+  correct: 3,
+  explain: "When tyres lose contact with the road surface, steering can feel lighter. Ease off the accelerator smoothly until grip returns.",
+  image: "",
+  fp: "R2D-SM-0012"
+},
+
+{
+  id: "safety-margins-0013",
+  category: "Safety Margins",
+  q: "What is the safest way to overtake a motorcyclist in strong winds?",
+  choices: [
+    "Pass closely",
+    "Overtake very slowly beside them",
+    "Give them extra space when passing",
+    "Overtake immediately"
+  ],
+  correct: 2,
+  explain: "Motorcyclists can be affected by gusts of wind. Allow plenty of clearance when overtaking.",
+  image: "",
+  fp: "R2D-SM-0013"
+},
+
+{
+  id: "safety-margins-0014",
+  category: "Safety Margins",
+  q: "If another driver pulls into the safe gap you've left on a wet road, what should you do?",
+  choices: [
+    "Flash your headlights",
+    "Overtake as soon as possible",
+    "Ease back to recreate a safe distance",
+    "Stay close behind them"
+  ],
+  correct: 2,
+  explain: "Maintain your safety margin by dropping back to rebuild stopping distance, especially in wet conditions.",
+  image: "",
+  fp: "R2D-SM-0014"
+},
+
+{
+  id: "safety-margins-0015",
+  category: "Safety Margins",
+  q: "When approaching a sharp bend in icy conditions, how should you adjust your speed?",
+  choices: [
+    "Coast into the bend",
+    "Apply the parking brake",
+    "Brake firmly before turning",
+    "Reduce speed smoothly and early"
+  ],
+  correct: 3,
+  explain: "Gentle speed reduction before the bend helps maintain grip and reduces the risk of skidding.",
+  image: "",
+  fp: "R2D-SM-0015"
+},
+
+{
+  id: "safety-margins-0016",
+  category: "Safety Margins",
+  q: "In which condition is your overall stopping distance most likely to increase?",
+  choices: [
+    "During rainfall",
+    "In fog",
+    "At night",
+    "In strong winds"
   ],
   correct: 0,
-  explain: "This is an example explanation showing where feedback text goes.",
+  explain: "Wet roads reduce tyre grip and can significantly increase braking distance.",
   image: "",
-  fp: "R2D-TEMPLATE-0002"
+  fp: "R2D-SM-0016"
+},
+
+{
+  id: "safety-margins-0017",
+  category: "Safety Margins",
+  q: "Before setting off in foggy conditions, what should you plan for?",
+  choices: [
+    "Wear high-visibility clothing",
+    "Drink caffeine",
+    "Allow extra travel time",
+    "Lower tyre pressures"
+  ],
+  correct: 2,
+  explain: "Reduced visibility means journeys take longer. Allowing more time helps prevent rushing.",
+  image: "",
+  fp: "R2D-SM-0017"
+},
+
+{
+  id: "safety-margins-0018",
+  category: "Safety Margins",
+  q: "On a motorway, how can you reduce collision risk if a vehicle behind is following too closely?",
+  choices: [
+    "Brake sharply",
+    "Switch on hazard lights",
+    "Increase the gap in front of you",
+    "Move onto the hard shoulder"
+  ],
+  correct: 2,
+  explain: "Increasing the distance ahead gives you more time to slow gradually, reducing sudden braking risks.",
+  image: "",
+  fp: "R2D-SM-0018"
+},
+
+{
+  id: "safety-margins-0019",
+  category: "Safety Margins",
+  q: "What effect can coasting in neutral have on vehicle control?",
+  choices: [
+    "Improves handling",
+    "Makes steering easier",
+    "Reduces driver control",
+    "Uses more fuel"
+  ],
+  correct: 2,
+  explain: "Coasting removes engine braking and reduces stability, giving you less control of the vehicle.",
+  image: "",
+  fp: "R2D-SM-0019"
+},
+
+{
+  id: "safety-margins-0020",
+  category: "Safety Margins",
+  q: "If your vehicle has ABS, how should you apply the brakes in an emergency?",
+  choices: [
+    "Slowly and gently",
+    "Gradually but firmly",
+    "Rapidly and lightly",
+    "Brake quickly and firmly"
+  ],
+  correct: 3,
+  explain: "Apply firm pressure immediately and keep braking. ABS prevents wheel lock while maintaining steering control.",
+  image: "",
+  fp: "R2D-SM-0020"
+},
+ {
+  id: "safety-margins-0021",
+  category: "Safety Margins",
+  q: "What is the most common reason a vehicle begins to skid?",
+  choices: [
+    "Weather conditions",
+    "Driver actions",
+    "Vehicle faults",
+    "Road layout"
+  ],
+  correct: 1,
+  explain: "Skidding is usually caused by driver input such as harsh braking, steering or acceleration. Adjust your driving to suit road and weather conditions.",
+  image: "",
+  fp: "R2D-SM-0021"
+},
+
+{
+  id: "safety-margins-0022",
+  category: "Safety Margins",
+  q: "Which lights should you use on a wet motorway when spray reduces visibility?",
+  choices: [
+    "Hazard warning lights",
+    "Dipped headlights",
+    "Rear fog lights",
+    "Sidelights only"
+  ],
+  correct: 1,
+  explain: "Dipped headlights help other road users see you clearly when visibility is reduced by surface spray.",
+  image: "",
+  fp: "R2D-SM-0022"
+},
+
+{
+  id: "safety-margins-0023",
+  category: "Safety Margins",
+  q: "What driving factor is affected if road surfaces soften during very hot weather?",
+  choices: [
+    "Vehicle suspension",
+    "Exhaust performance",
+    "Fuel efficiency",
+    "Tyre grip"
+  ],
+  correct: 3,
+  explain: "Soft road surfaces reduce tyre grip, meaning extra care is needed when braking or cornering.",
+  image: "",
+  fp: "R2D-SM-0023"
+},
+
+{
+  id: "safety-margins-0024",
+  category: "Safety Margins",
+  q: "How much longer can stopping distances become on icy roads?",
+  choices: [
+    "Twice as long",
+    "Three times as long",
+    "Five times as long",
+    "Up to ten times as long"
+  ],
+  correct: 3,
+  explain: "Ice greatly reduces tyre grip, meaning stopping distances may increase by as much as ten times compared to dry conditions.",
+  image: "",
+  fp: "R2D-SM-0024"
+},
+
+{
+  id: "safety-margins-0025",
+  category: "Safety Margins",
+  q: "How can you reduce the risk of wheelspin when driving on ice?",
+  choices: [
+    "Use the parking brake if wheels slip",
+    "Brake repeatedly",
+    "Drive slowly in the highest suitable gear",
+    "Remain in a low gear"
+  ],
+  correct: 2,
+  explain: "Using a higher gear reduces engine torque at the wheels, helping prevent loss of grip on icy roads.",
+  image: "",
+  fp: "R2D-SM-0025"
+},
+
+{
+  id: "safety-margins-0026",
+  category: "Safety Margins",
+  q: "When travelling through a contraflow system, what should you do?",
+  choices: [
+    "Change lanes frequently",
+    "Increase speed to clear it quickly",
+    "Follow closely to avoid delays",
+    "Select the correct lane early"
+  ],
+  correct: 3,
+  explain: "Choose the correct lane in good time and maintain safe spacing, as lanes are often narrow near oncoming traffic.",
+  image: "",
+  fp: "R2D-SM-0026"
+},
+
+{
+  id: "safety-margins-0027",
+  category: "Safety Margins",
+  q: "In dry conditions on an open road, what following distance should you normally keep?",
+  choices: [
+    "A two-second gap",
+    "One car length",
+    "Two metres",
+    "Two car lengths"
+  ],
+  correct: 0,
+  explain: "Use the two-second rule to maintain a safe stopping distance from the vehicle ahead in dry conditions.",
+  image: "",
+  fp: "R2D-SM-0027"
+},
+
+{
+  id: "safety-margins-0028",
+  category: "Safety Margins",
+  q: "How should you position your wheels when parking facing downhill?",
+  choices: [
+    "Turn wheels towards the kerb",
+    "Park touching another vehicle",
+    "Mount the kerb slightly",
+    "Turn wheels away from the kerb"
+  ],
+  correct: 0,
+  explain: "Turning the wheels towards the kerb helps prevent the vehicle rolling forward if the brakes fail.",
+  image: "",
+  fp: "R2D-SM-0028"
+},
+
+{
+  id: "safety-margins-0029",
+  category: "Safety Margins",
+  q: "Before driving in freezing weather, which part of your vehicle must be cleared of ice and snow?",
+  choices: [
+    "The aerial",
+    "The windows",
+    "The bumper",
+    "The boot lid"
+  ],
+  correct: 1,
+  explain: "Clear all windows, mirrors and lights so you can see properly and be seen by other road users.",
+  image: "",
+  fp: "R2D-SM-0029"
+},
+
+{
+  id: "safety-margins-0030",
+  category: "Safety Margins",
+  q: "What helps you move off safely on a snowy surface?",
+  choices: [
+    "Using first gear",
+    "Using a higher gear than usual",
+    "High engine revs",
+    "Using both brakes together"
+  ],
+  correct: 1,
+  explain: "Moving off in a higher gear reduces wheelspin by limiting power delivered to the driving wheels.",
+  image: "",
+  fp: "R2D-SM-0030"
+},
+ {
+  id: "safety-margins-0031",
+  category: "Safety Margins",
+  q: "Why should you keep slightly left when approaching a right-hand bend?",
+  choices: [
+    "To improve visibility ahead",
+    "To counter road camber",
+    "To allow overtaking traffic past",
+    "To control skidding"
+  ],
+  correct: 0,
+  explain: "Positioning left improves your view around the bend and helps you spot hazards sooner.",
+  image: "",
+  fp: "R2D-SM-0031"
+},
+
+{
+  id: "safety-margins-0032",
+  category: "Safety Margins",
+  q: "What may indicate that the road surface is icy?",
+  choices: [
+    "Reduced wind noise",
+    "Less tyre noise",
+    "Reduced transmission noise",
+    "Lower engine noise"
+  ],
+  correct: 1,
+  explain: "Tyres often make very little sound on ice, and steering may feel unusually light.",
+  image: "",
+  fp: "R2D-SM-0032"
+},
+
+{
+  id: "safety-margins-0033",
+  category: "Safety Margins",
+  q: "Which road users need extra care when driving in strong winds?",
+  choices: [
+    "When braking",
+    "When moving off uphill",
+    "When turning into side roads",
+    "Cyclists being overtaken"
+  ],
+  correct: 3,
+  explain: "Strong gusts can easily push cyclists off course, so allow extra passing space.",
+  image: "",
+  fp: "R2D-SM-0033"
+},
+
+{
+  id: "safety-margins-0034",
+  category: "Safety Margins",
+  q: "Where are vehicles most affected by strong side winds?",
+  choices: [
+    "Narrow country lanes",
+    "Exposed open roads",
+    "Busy urban roads",
+    "Long straight streets"
+  ],
+  correct: 1,
+  explain: "Open and exposed areas allow wind gusts to affect vehicle stability more strongly.",
+  image: "",
+  fp: "R2D-SM-0034"
 }
 ];
 
