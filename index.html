@@ -341,7 +341,7 @@ body{
   <img src="https://reddi2drive.co.uk/wp-content/uploads/2026/01/reddi2drivelogo.png" alt="Reddi2Drive" class="brandLogo">
 </a>
         <!-- NOTE (R2D): Change this visible test title text (or let JS set it from TEST_TITLE). -->
-        <span id="testTitleText">Template</span>
+        <span id="testTitleText">Safety Margins</span>
       </h1>
 
       <div class="r2d-tagline" aria-label="Reddi2Learn Reddi2Drive Reddi2Pass">
@@ -401,8 +401,8 @@ body{
                Keep value="full" for the Full option (the script uses it). -->
           <select id="qsSelect" class="btn ghost" style="padding:6px 8px; font-weight:800; min-width:86px">
             <option value="10">10</option>
-            <option value="25">25</option>
-            <option value="50">50</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
             <option value="full">Full</option>
           </select>
           <span class="muted" id="qsHint" style="font-size:12px;"></span>
@@ -622,7 +622,7 @@ const _titleEl = document.getElementById("testTitleText");
 if (_titleEl) _titleEl.textContent = TEST_TITLE;
 document.title = `Reddi2Drive – ${TEST_TITLE}`;
        // e.g. "Traffic Lights", "Motorways", "Signs & Markings"
-const TEST_SLUG  = "template";    // ← CHANGE THIS (must be unique per quiz)    // e.g. "traffic-lights", "motorways", "signs"
+const TEST_SLUG  = "safety_margins";    // ← CHANGE THIS (must be unique per quiz)    // e.g. "traffic-lights", "motorways", "signs"
 // Number of questions per attempt (cannot exceed QUESTION_BANK length)
 const QS_PER_ATTEMPT_DEFAULT = 71;
 // =========================================================
